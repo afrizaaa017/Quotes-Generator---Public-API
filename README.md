@@ -9,24 +9,6 @@ Aplikasi sederhana untuk menampilkan dan generate kutipan (quotes) secara acak m
 - Loading state saat mengambil data
 - Tampilan responsif dan rapi dengan CSS Module
 
-## Instalasi
-
-1. **Clone repository ini**  
-   ```bash
-   git clone repo
-   cd quotes-generator
-   ```
-
-2. **Install dependencies**  
-   ```bash
-   npm install
-   ```
-
-3. **Jalankan aplikasi**  
-   ```bash
-   npm run dev
-   ```
-   Buka browser ke [http://localhost:3000](http://localhost:3000)
 
 ## Struktur Folder
 
@@ -60,6 +42,43 @@ quotes-generator/
  folder berisi file index.html dan script.js yang merupakan auto generator berbasis JavaScript DOM tanpa library/framework tambahan.
 
 
+## Instalasi Berbasis Javascript DOM tanpa framework
+
+1. **Clone repository ini**  
+   ```bash
+   git clone repo
+   cd quotes-generator
+   cd javascript_dom
+   ```
+
+
+2. **Jalankan aplikasi**  
+   ```bash
+   start index.html
+   ```
+   Maka akan terbuka browser ke [http://127.0.0.1:5500/javascript_dom/](http://127.0.0.1:5500/javascript_dom/)
+
+
+
+## Instalasi Berbasis Next.JS
+
+1. **Clone repository ini**  
+   ```bash
+   git clone repo
+   cd quotes-generator
+   ```
+
+2. **Install dependencies**  
+   ```bash
+   npm install
+   ```
+
+3. **Jalankan aplikasi**  
+   ```bash
+   npm run dev
+   ```
+   Buka browser ke [http://localhost:3000](http://localhost:3000)
+   
 ## API
 
 Menggunakan endpoint:  
